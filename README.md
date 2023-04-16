@@ -2,11 +2,11 @@
 
 ## Create a catkin workspace
 
-1.  For a linux system, you would go: `mkdir -p ~/catkin_ws/src`
+1.  For a linux system, you would go: `mkdir ~/catkin_ws`. Clone this repo under the workspace folder
 
 2.  Assuming you have ROS (not ROS2!) installed on your system, you should go ahead and source your ROS with `source /opt/ros/${ROS_DISTRO}/setup.bash`
 
-3. Then build the workspace with `catkin_make` while you're under the `~/catkin_ws` folder
+3. Build the workspace with `catkin_make` while you're under the `~/catkin_ws` folder
 
 4. After building, run `source devel/setup.bash` in the workspace folder
 
