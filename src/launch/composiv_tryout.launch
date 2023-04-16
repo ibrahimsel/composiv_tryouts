@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="composiv_tryouts" type="composiv_listener.py" name="composiv_listener"/>
+    <node pkg="composiv_tryouts" type="composiv_talker.py" name="composiv_talker"/>
+</launch>
